@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CE2C64D028FB284700AD9979 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C64CF28FB284700AD9979 /* main.swift */; };
+		CE2C64D72900849100AD9979 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C64D62900849100AD9979 /* Shop.swift */; };
+		CE2C64DB290084E100AD9979 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C64DA290084E100AD9979 /* Products.swift */; };
+		CE65A12929010F8100F792A9 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A12829010F8100F792A9 /* Bank.swift */; };
+		CE65A12B29010FE100F792A9 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65A12A29010FE100F792A9 /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		CE2C64CC28FB284700AD9979 /* 2M1stHomeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2M1stHomeWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2C64CF28FB284700AD9979 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE2C64D62900849100AD9979 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		CE2C64DA290084E100AD9979 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		CE65A12829010F8100F792A9 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		CE65A12A29010FE100F792A9 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				CE2C64CF28FB284700AD9979 /* main.swift */,
+				CE2C64D62900849100AD9979 /* Shop.swift */,
+				CE2C64DA290084E100AD9979 /* Products.swift */,
+				CE65A12829010F8100F792A9 /* Bank.swift */,
+				CE65A12A29010FE100F792A9 /* Client.swift */,
 			);
 			path = 2M1stHomeWork;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2C64DB290084E100AD9979 /* Products.swift in Sources */,
+				CE65A12929010F8100F792A9 /* Bank.swift in Sources */,
 				CE2C64D028FB284700AD9979 /* main.swift in Sources */,
+				CE65A12B29010FE100F792A9 /* Client.swift in Sources */,
+				CE2C64D72900849100AD9979 /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
